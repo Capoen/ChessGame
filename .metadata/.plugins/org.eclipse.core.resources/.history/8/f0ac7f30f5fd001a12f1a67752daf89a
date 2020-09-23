@@ -1,0 +1,24 @@
+package chess;
+
+import boardgame.Board;
+
+public class ChessMatch {
+	
+	// Atributes
+	private Board board;
+	
+	// Standard Constructor
+	public ChessMatch() {
+		
+	}
+
+	// Constructor Using Fields
+	public ChessMatch(Board board) {
+		this.board = board;
+	}
+	
+
+	
+	
+
+}
