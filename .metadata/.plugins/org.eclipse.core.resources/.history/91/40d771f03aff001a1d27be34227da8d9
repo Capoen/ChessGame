@@ -1,0 +1,18 @@
+package chess;
+
+public class ChessPosition {
+
+	private char column;
+	private int row;
+	
+	public ChessPosition() {
+		
+	}
+	
+	public ChessPosition(char column, int row) {
+		this.column = column;
+		this.row = row;
+	}
+	
+	
+}
